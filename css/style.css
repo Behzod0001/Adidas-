@@ -1,0 +1,199 @@
+@import url(fonts.css);
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+    font-family: 'Rubik-Regular';
+}
+
+.container{
+    width: 1140px;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+
+.nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 30px;
+}
+
+.nav__list{
+    display: flex;
+    column-gap: 30px;
+}
+
+
+.nav__list-link{
+    color: #000000;
+    display: block;
+    padding: 30px 0;
+    border-top: 2px solid transparent;
+    border-bottom: 2px solid transparent;
+}
+
+
+
+
+.nav__list-link:hover{
+    border-top: 2px solid black;
+    border-bottom: 2px solid black;
+    transition: 0.5s;
+    color: red;
+}
+
+
+.nav__input{
+    border: 1px solid black;
+    border-radius: 10px 0 0 10px;
+    color: black;
+    padding: 8px 12px;
+    outline: none;
+    width: 100%;
+}
+
+.nav__search{
+    max-width: 290px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.nav__btn{
+    background: black;
+    color: white;
+    padding: 8px 17px;
+    font-size: 12px;
+    border-radius: 0 10Px 10px 0;
+}
+
+.header{
+    background: url(../img/header.png) no-repeat center/cover;
+    height: 100vh;
+    background-position: top;
+}
+
+.header__content{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100vh;
+    justify-content: center;
+}
+
+.header__content-title{
+    color: white;
+    line-height: 70px;
+    font-family: 'Rubik-SemiBold';
+    font-size: 59px;
+    padding: 20px 0 10px;
+}
+
+.header__content-text{
+    color: white;
+    font-family: 'Rubik-Light';
+    font-size: 26px;
+    line-height: 31px;
+    text-transform: uppercase;
+}
+
+.cards{
+    display: flex;
+}
+
+.cards__card{
+    width: 25%;
+    background: #181D28;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    transition: 0.5s;
+    padding: 20px 0;
+}
+
+.cards__card-title{
+    font-size: 18px;
+    font-family: 'Rubik-SemiBold';
+    color:white;
+    line-height: 21px;
+    padding-top: 24px;
+}
+
+.cards__card:hover{
+    background: #6B4B6B;
+
+}
+
+
+.gear{
+    padding: 40px 0;
+}
+
+.gear__title{
+    text-align: center;
+    padding-bottom: 20px;
+    font-size: 22px;
+    font-family: 'Rubik-SemiBold';
+    line-height: 26px;
+}
+
+.gear__text{
+    font-size: 15px;
+    line-height: 18px;
+    color: black;
+    padding-bottom: 40px;
+}
+
+.gear__img{
+    width: 100%;
+}
+
+.catigories__title{
+    padding-bottom: 30px;
+    font-family: 'Rubik-SemiBold';
+    text-align: center;
+    font-size: 22px;
+}
+
+.categories__content{
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 40px;
+}
+
+.categories__content-item{
+    padding-bottom: 14px;
+}
+
+.categories__content-link{
+    color: black;
+    font-size: 18px;
+    line-height: 15px;
+}
+
+.footer{
+    display: flex;
+    justify-content: space-between;
+    padding: 35px 35px ;
+    background: #181D28;
+}
+
+.footer__list{
+    display: flex;
+    column-gap: 30px;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer__list-link{
+    font-size: 20px;
+    line-height: 23px;
+    font-family: 'Rubik-Regular';
+    color: white;
+}
